@@ -4,7 +4,7 @@ metadata:
   namespace: example06
   generateName: my-db-upgrade-
   labels:
-    codefresh.io/cert: db-job  
+    code.io/cert: db-job  
 spec:
   template:
     spec:

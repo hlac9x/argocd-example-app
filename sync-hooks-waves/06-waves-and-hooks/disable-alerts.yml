@@ -4,7 +4,7 @@ metadata:
   namespace: example06
   generateName: disable-alerts-
   labels:
-    codefresh.io/cert: disable-job  
+    code.io/cert: disable-job  
 spec:
   template:
     spec:

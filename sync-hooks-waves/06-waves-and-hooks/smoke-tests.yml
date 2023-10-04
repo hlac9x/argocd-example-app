@@ -4,7 +4,7 @@ metadata:
   namespace: example06
   generateName: smoke-tests-
   labels:
-    codefresh.io/cert: smoke-job  
+    code.io/cert: smoke-job  
 spec:
   template:
     spec:
