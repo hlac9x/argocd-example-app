@@ -100,13 +100,10 @@ spec:
       labels:
         app.kubernetes.io/name: argocd-image-updater
     spec:
-      containers:    
-      - args:
-          - '--interval'
-          - 1m
-        command:
-          - /usr/local/bin/argocd-image-updater
-          - run         
+      containers:
+      - command:
+        - /usr/local/bin/argocd-image-updater
+        - run
         env:
         - name: APPLICATIONS_API
           valueFrom:
